@@ -1,0 +1,108 @@
+.first {
+  background: url(../../photos/mediumBigTree.gif);
+  min-height: 100%;
+  opacity: 0.95;
+}
+
+.heading {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: white;
+  font-size: 600%;
+  letter-spacing: 4px;
+  text-shadow: 0 0 10px black;
+}
+.subheading {
+  line-height: 50px;
+  position: absolute;
+  top: 49%;
+  width: 100%;
+  color: white;
+  font-size: 300%;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px black;
+  text-align: center;
+
+  font-family: "Roboto";
+  font-weight: 300;
+  /* font-size:32px; */
+  /* padding-top:40vh; */
+  height: 100vh;
+  overflow: hidden;
+  /* -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0); */
+}
+.coder {
+  /* animation-delay: 2s; */
+  animation: showup 7s;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.phoEdu {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: reveal 7s;
+  animation-fill-mode: forwards;
+}
+
+.phoEdu span {
+  margin-left: -355px;
+  animation: slidein 7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 490px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    width: 490px;
+  }
+}

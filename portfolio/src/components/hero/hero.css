@@ -1,5 +1,5 @@
 .first {
-  background: url(../../photos/mediumBigTree.gif);
+  background: url(../../photos/mediumBigTree.gif) no-repeat center center/cover;
   min-height: 100%;
   opacity: 0.95;
 }

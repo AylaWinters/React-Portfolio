@@ -1,4 +1,6 @@
 import React from "react";
+import close2You from "../../photos/Close2You.png";
+import "./projects.css";
 
 function projects() {
   return (
@@ -11,7 +13,7 @@ function projects() {
               data-aos="flip-down"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
-              src="../../photos/Close2You.png"
+              src={close2You}
               alt="travel site image"
             />
             <figcaption>

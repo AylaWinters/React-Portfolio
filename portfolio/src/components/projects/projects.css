@@ -1,6 +1,6 @@
 .second {
-  background: url(./photos/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg) no-repeat
-    center center/cover;
+  background: url(../../photos/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg)
+    no-repeat center center/cover;
   min-height: 60%;
   opacity: 120%;
   /* max-height: 300%; */
@@ -26,7 +26,9 @@
 .project-photos {
   margin: 15px;
   width: 300px;
+  min-width: 300px;
   height: 210px;
+  min-height: 210px;
   border-radius: 10px;
   animation: projects;
   animation-duration: 1s;
@@ -51,7 +53,7 @@
 
 /* ================================================== */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400, 500, 700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
 .snip1273 {
   font-family: "Raleway", Arial, sans-serif;
   position: relative;

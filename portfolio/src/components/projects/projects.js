@@ -1,5 +1,4 @@
 import React from "react";
-import close2You from "../../photos/Close2You.png";
 import "./projects.css";
 
 function projects() {
@@ -10,10 +9,7 @@ function projects() {
         <div className="sites">
           <figure className="snip1273 project-photos">
             <img
-              data-aos="flip-down"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              src={close2You}
+              src="https://i.imgur.com/qdSZ6rq.png"
               alt="travel site image"
             />
             <figcaption>
@@ -54,10 +50,7 @@ function projects() {
         <div className="sites">
           <figure className="snip1273 project-photos">
             <img
-              data-aos="flip-down"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              src="../../photos/Dream Garage.png"
+              src="https://i.imgur.com/PMuDGZg.png"
               alt="garage site image"
             />
             <figcaption>
@@ -99,10 +92,7 @@ function projects() {
         <div className="sites">
           <figure className="snip1273 project-photos">
             <img
-              data-aos="flip-down"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              src="../../photos/weather.png"
+              src="https://i.imgur.com/59aGeLC.png"
               alt="weather site image"
             />
             <figcaption>
@@ -142,10 +132,7 @@ function projects() {
         <div className="sites">
           <figure className="snip1273 project-photos">
             <img
-              data-aos="flip-down"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              src="../../photos/scheduler.png"
+              src="https://i.imgur.com/CtHdPwJ.png"
               alt="scheduler site image"
             />
             <figcaption>
@@ -183,13 +170,7 @@ function projects() {
         </div>
         <div className="sites">
           <figure className="snip1273 project-photos">
-            <img
-              data-aos="flip-down"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              src="../../photos/quiz.png"
-              alt="quiz site image"
-            />
+            <img src="https://i.imgur.com/vEksA8e.png" alt="quiz site image" />
             <figcaption>
               <h6>Animal Quiz App</h6>
               <p>

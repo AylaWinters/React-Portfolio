@@ -3,6 +3,12 @@
     no-repeat center center/cover;
   min-height: 60%;
   opacity: 120%;
+
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   /* max-height: 300%; */
 }
 
@@ -211,5 +217,22 @@ figure {
   100% {
     left: 68px;
     bottom: -50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .projects-photos {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  .second {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 350px) {
+  .project-photos {
+    margin: 0;
   }
 }

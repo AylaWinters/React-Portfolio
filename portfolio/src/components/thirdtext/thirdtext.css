@@ -1,0 +1,14 @@
+.three p {
+  background: rgb(58, 58, 58);
+  color: white;
+  padding: 40px 90px;
+  margin: 0;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+@media (max-width: 500px) {
+  .three p {
+    padding: 30px 20px;
+  }
+}

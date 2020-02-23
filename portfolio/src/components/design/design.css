@@ -1,0 +1,13 @@
+.two {
+  background: rgb(58, 58, 58);
+  color: white;
+  padding: 2px 30px;
+  font-size: 35px;
+  line-height: 45px;
+  padding: 30px 90px;
+}
+@media (max-width: 500px) {
+  .two {
+    padding: 10px 20px;
+  }
+}

@@ -2,12 +2,18 @@
   padding: 0 30px 5px 30px;
 }
 .one {
-  /* background-color: rgba(58, 58, 58); */
-  color: black;
+  background-color: rgba(58, 58, 58);
+  color: white;
   font-size: 25px;
   line-height: 40px;
   padding: 20px 70px;
 }
 .one p {
   text-align: justify;
+}
+
+@media (max-width: 500px) {
+  .one {
+    padding: 10px 0px;
+  }
 }

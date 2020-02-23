@@ -1,0 +1,90 @@
+.row {
+  margin-bottom: 0;
+}
+.forth {
+  background: url(../../photos/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+  /* min-height: 90% !important; */
+  height: 80vh;
+  opacity: 0.95;
+  font-size: 30px;
+  line-height: 45px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact-word {
+  padding-top: 7%;
+}
+.info-container {
+  text-align: right;
+  color: white;
+  text-shadow: 0 0 10px black;
+  padding-top: 7%;
+}
+.my-email {
+  font-size: 25px;
+}
+.my-email:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 0.7s ease;
+}
+.input-field label {
+  color: white;
+  font-size: 25px;
+  text-shadow: 0 0 10px black;
+}
+
+.input-field :focus + label {
+  color: white !important;
+}
+.input-field {
+  color: white;
+}
+
+.input-field :focus {
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+textarea.materialize-textarea {
+  padding-bottom: 20px;
+}
+.contact-info {
+  padding-top: 10%;
+}
+
+.media {
+  letter-spacing: 7px;
+  font-size: 50px;
+  line-height: 60px;
+}
+.fab:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 0.7s ease;
+}
+
+@media (max-width: 600px) {
+  .info-container {
+    text-align: center;
+  }
+  .info-container {
+    padding-top: 0;
+  }
+  .contact-info {
+    padding-top: 0;
+  }
+  .forth {
+    height: 100vh;
+  }
+}
+@media (max-width: 500px) {
+  .forth {
+    background-attachment: scroll;
+  }
+}

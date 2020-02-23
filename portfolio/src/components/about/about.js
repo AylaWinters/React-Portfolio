@@ -4,10 +4,8 @@ import "./about.css";
 function about() {
   return (
     <section className="one">
-      <h1 data-aos="fade-up" data-aos-duration="2000">
-        About Me
-      </h1>
-      <div className="about" data-aos="fade-up" data-aos-duration="2000">
+      <h1>About Me</h1>
+      <div className="about">
         <p>
           As a lifelong learner, I have consistently pushed myself to explore
           and discover new things. This drive has taken me to some amazing
@@ -21,8 +19,8 @@ function about() {
           with WordPress. In addition to learning languages and libraries, I've
           developed the skills to modify existing software, debug code, and
           adapt to new technologies. I am now enthusiastically searching for my
-          first job as a junior developer where I can utilize all of these
-          skills and learn some new ones as well.
+          first job as a developer where I can utilize all of these skills and
+          learn some new ones as well.
         </p>
       </div>
     </section>

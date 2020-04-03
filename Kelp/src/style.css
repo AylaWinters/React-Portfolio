@@ -1,0 +1,145 @@
+@media (max-width: 1200) {
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      width: 0px;
+    }
+    20% {
+      opacity: 1;
+      width: 0px;
+    }
+    30% {
+      width: 450px;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      width: 450px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .heading {
+    font-size: 350%;
+  }
+  .subheading {
+    font-size: 200%;
+    top: 45%;
+  }
+  .projects-photos {
+    flex-wrap: wrap;
+  }
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      width: 0px;
+    }
+    20% {
+      opacity: 1;
+      width: 0px;
+    }
+    30% {
+      width: 310px;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      width: 310px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .info-container {
+    text-align: center;
+  }
+  .info-container {
+    padding-top: 0;
+  }
+  .contact-info {
+    padding-top: 0;
+  }
+  .forth {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 550px) {
+}
+@media (max-width: 500px) {
+  .heading {
+    font-size: 275%;
+  }
+  .subheading {
+    font-size: 175%;
+    line-height: 1;
+    top: 47%;
+  }
+  .phoEdu {
+    display: inline;
+  }
+  .one {
+    padding: 10px 0px;
+  }
+  .two {
+    padding: 10px 20px;
+  }
+  .three p {
+    padding: 30px 20px;
+  }
+  .first,
+  .second,
+  .third,
+  .forth {
+    background-attachment: scroll;
+  }
+
+  @keyframes showup {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slidein {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
+
+  @keyframes reveal {
+    0% {
+      opacity: 1;
+      width: 470px;
+    }
+    100% {
+      opacity: 1;
+      width: 470px;
+    }
+  }
+}
+@media (max-width: 450px) {
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 250%;
+  }
+  .subheading {
+    font-size: 120%;
+  }
+}
+@media (max-width: 350px) {
+  .project-photos {
+    margin: 0;
+  }
+}
